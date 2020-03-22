@@ -1,0 +1,8 @@
+# Ignore IDE
+.idea
+
+# Ignore all Composer lockfiles
+composer.lock
+
+# Ignore vendor
+/vendor
