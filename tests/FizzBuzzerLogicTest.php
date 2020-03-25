@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 use App\Logic\FizzBuzzer;
 use PHPUnit\Framework\TestCase;
+use Symfony\Component\Yaml\Yaml;
 
 final class FizzBuzzerLogicTest extends TestCase
 {
@@ -19,35 +20,24 @@ final class FizzBuzzerLogicTest extends TestCase
         parent::__construct($name, $data, $dataName);
     }
 
-    public function testNotTransformed(): void
+    /**
+     * @dataProvider dataProvider
+     * @param string $value
+     * @param string $expected
+     */
+    public function testFizzBuzz(int $value, string $expected): void
     {
         self::assertSame(
-            '1',
-            $this->fizzBuzzer->transform(1)
+            $expected,
+            $this->fizzBuzzer->transform($value)
         );
     }
 
-    public function testFizz(): void
+    /**
+     * @SuppressWarnings(StaticAccess)
+     */
+    public function dataProvider()
     {
-        self::assertSame(
-            'Fizz',
-            $this->fizzBuzzer->transform(3)
-        );
-    }
-
-    public function testBuzz(): void
-    {
-        self::assertSame(
-            'Buzz',
-            $this->fizzBuzzer->transform(5)
-        );
-    }
-
-    public function testFizzBuzz(): void
-    {
-        self::assertSame(
-            'FizzBuzz',
-            $this->fizzBuzzer->transform(15)
-        );
+        return Yaml::parseFile(__DIR__ . "/data.yaml");
     }
 }

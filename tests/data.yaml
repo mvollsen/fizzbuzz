@@ -1,0 +1,300 @@
+test1:
+    value: 1
+    expected: '1'
+test2:
+    value: 2
+    expected: '2'
+test3:
+    value: 3
+    expected: 'Fizz'
+test4:
+    value: 4
+    expected: '4'
+test5:
+    value: 5
+    expected: 'Buzz'
+test6:
+    value: 6
+    expected: 'Fizz'
+test7:
+    value: 7
+    expected: '7'
+test8:
+    value: 8
+    expected: '8'
+test9:
+    value: 9
+    expected: 'Fizz'
+test10:
+    value: 10
+    expected: 'Buzz'
+test11:
+    value: 11
+    expected: '11'
+test12:
+    value: 12
+    expected: 'Fizz'
+test13:
+    value: 13
+    expected: '13'
+test14:
+    value: 14
+    expected: '14'
+test15:
+    value: 15
+    expected: 'FizzBuzz'
+test16:
+    value: 16
+    expected: '16'
+test17:
+    value: 17
+    expected: '17'
+test18:
+    value: 18
+    expected: 'Fizz'
+test19:
+    value: 19
+    expected: '19'
+test20:
+    value: 20
+    expected: 'Buzz'
+test21:
+    value: 21
+    expected: 'Fizz'
+test22:
+    value: 22
+    expected: '22'
+test23:
+    value: 23
+    expected: '23'
+test24:
+    value: 24
+    expected: 'Fizz'
+test25:
+    value: 25
+    expected: 'Buzz'
+test26:
+    value: 26
+    expected: '26'
+test27:
+    value: 27
+    expected: 'Fizz'
+test28:
+    value: 28
+    expected: '28'
+test29:
+    value: 29
+    expected: '29'
+test30:
+    value: 30
+    expected: 'FizzBuzz'
+test31:
+    value: 31
+    expected: '31'
+test32:
+    value: 32
+    expected: '32'
+test33:
+    value: 33
+    expected: 'Fizz'
+test34:
+    value: 34
+    expected: '34'
+test35:
+    value: 35
+    expected: 'Buzz'
+test36:
+    value: 36
+    expected: 'Fizz'
+test37:
+    value: 37
+    expected: '37'
+test38:
+    value: 38
+    expected: '38'
+test39:
+    value: 39
+    expected: 'Fizz'
+test40:
+    value: 40
+    expected: 'Buzz'
+test41:
+    value: 41
+    expected: '41'
+test42:
+    value: 42
+    expected: 'Fizz'
+test43:
+    value: 43
+    expected: '43'
+test44:
+    value: 44
+    expected: '44'
+test45:
+    value: 45
+    expected: 'FizzBuzz'
+test46:
+    value: 46
+    expected: '46'
+test47:
+    value: 47
+    expected: '47'
+test48:
+    value: 48
+    expected: 'Fizz'
+test49:
+    value: 49
+    expected: '49'
+test50:
+    value: 50
+    expected: 'Buzz'
+test51:
+    value: 51
+    expected: 'Fizz'
+test52:
+    value: 52
+    expected: '52'
+test53:
+    value: 53
+    expected: '53'
+test54:
+    value: 54
+    expected: 'Fizz'
+test55:
+    value: 55
+    expected: 'Buzz'
+test56:
+    value: 56
+    expected: '56'
+test57:
+    value: 57
+    expected: 'Fizz'
+test58:
+    value: 58
+    expected: '58'
+test59:
+    value: 59
+    expected: '59'
+test60:
+    value: 60
+    expected: 'FizzBuzz'
+test61:
+    value: 61
+    expected: '61'
+test62:
+    value: 62
+    expected: '62'
+test63:
+    value: 63
+    expected: 'Fizz'
+test64:
+    value: 64
+    expected: '64'
+test65:
+    value: 65
+    expected: 'Buzz'
+test66:
+    value: 66
+    expected: 'Fizz'
+test67:
+    value: 67
+    expected: '67'
+test68:
+    value: 68
+    expected: '68'
+test69:
+    value: 69
+    expected: 'Fizz'
+test70:
+    value: 70
+    expected: 'Buzz'
+test71:
+    value: 71
+    expected: '71'
+test72:
+    value: 72
+    expected: 'Fizz'
+test73:
+    value: 73
+    expected: '73'
+test74:
+    value: 74
+    expected: '74'
+test75:
+    value: 75
+    expected: 'FizzBuzz'
+test76:
+    value: 76
+    expected: '76'
+test77:
+    value: 77
+    expected: '77'
+test78:
+    value: 78
+    expected: 'Fizz'
+test79:
+    value: 79
+    expected: '79'
+test80:
+    value: 80
+    expected: 'Buzz'
+test81:
+    value: 81
+    expected: 'Fizz'
+test82:
+    value: 82
+    expected: '82'
+test83:
+    value: 83
+    expected: '83'
+test84:
+    value: 84
+    expected: 'Fizz'
+test85:
+    value: 85
+    expected: 'Buzz'
+test86:
+    value: 86
+    expected: '86'
+test87:
+    value: 87
+    expected: 'Fizz'
+test88:
+    value: 88
+    expected: '88'
+test89:
+    value: 89
+    expected: '89'
+test90:
+    value: 90
+    expected: 'FizzBuzz'
+test91:
+    value: 91
+    expected: '91'
+test92:
+    value: 92
+    expected: '92'
+test93:
+    value: 93
+    expected: 'Fizz'
+test94:
+    value: 94
+    expected: '94'
+test95:
+    value: 95
+    expected: 'Buzz'
+test96:
+    value: 96
+    expected: 'Fizz'
+test97:
+    value: 97
+    expected: '97'
+test98:
+    value: 98
+    expected: '98'
+test99:
+    value: 99
+    expected: 'Fizz'
+test100:
+    value: 100
+    expected: 'Buzz'
