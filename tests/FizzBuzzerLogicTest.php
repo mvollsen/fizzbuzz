@@ -21,15 +21,15 @@ final class FizzBuzzerLogicTest extends TestCase
 
     public function testNotTransformed(): void
     {
-        self::assertEquals(
-            1,
+        self::assertSame(
+            '1',
             $this->fizzBuzzer->transform(1)
         );
     }
 
     public function testFizz(): void
     {
-        self::assertEquals(
+        self::assertSame(
             'Fizz',
             $this->fizzBuzzer->transform(3)
         );
@@ -37,15 +37,15 @@ final class FizzBuzzerLogicTest extends TestCase
 
     public function testBuzz(): void
     {
-        self::assertEquals(
+        self::assertSame(
             'Buzz',
             $this->fizzBuzzer->transform(5)
         );
     }
 
-    public function testBizzBuzz(): void
+    public function testFizzBuzz(): void
     {
-        self::assertEquals(
+        self::assertSame(
             'FizzBuzz',
             $this->fizzBuzzer->transform(15)
         );
